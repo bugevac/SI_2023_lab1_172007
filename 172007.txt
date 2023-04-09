@@ -1,0 +1,24 @@
+4. Kreiran e lokalen repozitorium so ime SI_2023_lab1_172007 i git e inicijaliziran so komandite: mkdir -> cd -> git init. So git config --global user.email i git config --global user.name se postavuvaat credentials so koi se ovozmozuva ponatamosna rabota.
+5. Se povrzuva so komandata git remote add origin.
+6. Kreirame read me datoteka i nea ja dodavame so komandata git add --all i git commit -m "Initial commit".
+7. Kreirame java klasa i ja dodavame so pomos na komandite git add -A i git commit -m "Add java class"
+8. Sinhronizacija se vrsi so pomos na komandata git push origin master.
+9. Kreirame 3 granki so komandata git branch bug1, git branch bug2 i git branch bug 3.
+10. So komandata git checkout bug1 se prefrlame na taa granka.
+11. Po popravka na greskata, so komandata git commit -a -m "Fix wrong loop for reading" praveme commit.
+12. Se prefrlame na bug2 so git checkout bug2.
+13. Praveme commit so komandata git commit -a -m "Fix wrong condition in filterOddNumbers".
+14. Se prefrlame na granka bug3 -> git checkout bug3.
+15. Praveme commit so komandata git commit -a -m "Fix method sumEvenNumbers".
+16. Praveme sinhronizacija so komandata git push --all origin.
+17. Na grankata master se prefrlame so komandata git checkout master.
+18. So komandata git merge bug1 ja spojuvanje grankata bug1 kon master.
+19. Sinhronizirame so git push --all origin
+20. Grankata bug2 ja spojuvame kon master so git merge bug2.
+21. Sinhronizirame so git push --all origin
+22. Se prefrlame na granka bug3 -> git checkout bug3.
+24. Se prefrlame na grankata master -> git checkout master.
+25. Ja spojuvame grankata bug3 so pomos na komandata git merge bug3.
+26. Sinhronizirame so git push --all origin.
+27. Koristeme git add, pa git commit -a -m "Final commit".
+28. git push --all origin.
